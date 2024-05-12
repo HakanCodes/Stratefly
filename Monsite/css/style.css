@@ -1,0 +1,187 @@
+.navbar-brand img {
+  max-height: 40px;
+}
+
+header .row {
+  min-height: 70vh;
+  background-image: url(../img/oiseau.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  align-items: center;
+  color: white;
+  clip-path: polygon(0 0, 100% 0, 100% 100%, 0 90%);
+}
+
+header .formreservation {
+  background-color: rgba(0, 0, 0, 0.5);
+  min-height: 70vh;
+  display: flex;
+}
+
+header h1 {
+  font-family: "Raleway", sans-serif;
+  margin-bottom: 50px;
+}
+
+header h2 {
+  font-family: "Dancing Script", cursive;
+}
+
+header .slogan {
+  display: flex;
+  min-height: 70vh;
+  align-items: flex-end;
+  justify-content: flex-end;
+}
+
+@media (max-width: 768px) {
+  header .slogan {
+    display: none;
+  }
+}
+
+#Présentation .media span {
+  color: red;
+  font-size: 3rem;
+  width: 4rem;
+  text-align: center;
+}
+
+#Présentation .media {
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+  border-radius: 3px;
+  transition: all 0.3s ease-in-out;
+}
+
+#Présentation .media:hover {
+  background-color: rgba(128, 128, 128, 0.5);
+}
+
+.fonddroitavis {
+  background-image: url(../img/satisfait.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  min-height: calc(100vh - 50px);
+}
+<!----------avis---------- > 
+.avisClient {
+  display: flex;
+  flex-direction: column;
+  justify-content: auto;
+  align-items: auto;
+  padding: 10px;
+  background-color: #d3dae4;
+  min-height: 50vh;
+}
+
+.avisClient span {
+  font-size: 5rem;
+  color: #17a2b8;
+}
+
+.avisClient h5 {
+  font-size: 2rem;
+  color: #888;
+  justify-content: auto;
+}
+
+
+
+#contact {
+  background-image: url("../img/contact.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100%;
+  min-height: 100vh;
+  margin: 0;
+  padding: 0;
+  background-attachment: fixed;
+}
+
+#contact .row {
+  min-height: calc(100vh - 50px);
+}
+
+.formcontact {
+  background-color: rgba(255, 255, 255, 0.8);
+  padding: 2rem 1rem;
+}
+
+#contact .formcontact {
+  background-color: rgba(255, 255, 255, 0.9);
+  padding: 40px;
+  border-radius: 8px; /* Bords arrondis pour une apparence plus douce */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Ombre pour un effet de profondeur */
+}
+
+.container {
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+footer {
+  background-color: #f5f5f5;
+  color: #333;
+  padding: 20px;
+  font-size: 14px;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.footer-section h3 {
+  margin-top: 0;
+  padding-top: 20px;
+  font-size: 1.5rem;
+}
+
+.footer-section {
+  padding: 20px;
+  display: flex;
+  flex-direction: column; /* Organise le contenu verticalement */
+  justify-content: center; /* Centre le contenu verticalement dans la section */
+  flex-grow: 1;
+}
+
+.footer-section p {
+  margin: 0;
+  line-height: 1.6;
+  text-align: justify;
+}
+
+.social-icons a {
+  font-size: 24px;
+  color: #333;
+  margin-right: 15px;
+}
+
+.social-icons a:hover {
+  color: #007bff;
+}
+
+@media (max-width: 768px) {
+  .footer-container {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .footer-section {
+    flex-basis: 100%;
+    margin-bottom: 20px;
+  }
+}
+
+@media (max-width: 768px) {
+  .footer-section {
+    flex-basis: 100%; /* Chaque section prend toute la largeur sur les petits écrans */
+    padding: 10px; /* Moins de padding sur les petits écrans */
+  }
+}

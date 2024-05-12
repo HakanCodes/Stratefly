@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="description"
+      content="Le site officiel de StratFly, créateur de site web responsive."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Font awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.css"
+    />
+    <!-- CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="shortcut icon" href="img/logo.jpg" type="image/jpg" />
+    <title>StratFly</title>
+  </head>
+  <body>
+    <!-- ***************NAVBAR**************-->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+      <a class="navbar-brand" href="#haut">
+        <img src="img/logo.jpg" alt="Logo StratFly" /> StratFly
+      </a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-bs-toggle="collapse"
+        data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="#haut">Accueil</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#Présentation">Présentation</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#avis">Avis</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contact">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <!-- ***************HEADER**************-->
+    <header class="container-fluid" id="haut">
+      <div class="row">
+        <!-- ***************1ere col**************-->
+        <div class="col-12 col-md-6 formreservation d-flex align-items-center">
+          <div>
+            <h1>Prendre rendez-vous</h1>
+            <form class="form-inline d-flex justify-content-end">
+              <div class="form-group mx-sm-3 mb-2">
+                <input
+                  type="date"
+                  class="form-control"
+                  name="daterendez-vous"
+                />
+              </div>
+              <button type="submit" class="btn btn-info mb-2 mr-2">
+                Voir les Disponibilités
+              </button>
+              <!-- Placez le bouton après le champ de date -->
+            </form>
+          </div>
+        </div>
+        <!-- ***************2eme col**************-->
+        <div class="col-12 col-md-6 slogan">
+          <h2>Propulsez vos objectifs</h2>
+        </div>
+      </div>
+    </header>
+    <!-- ***************Offres**************-->
+    <div class="container" id="Présentation">
+      <div class="row">
+        <div class="col-md-6 mb-4">
+          <div class="media my-3">
+            <span
+              ><i class="fa-solid fa-globe" style="color: #ffd43b"></i
+            ></span>
+            <div class="media-body ml-3">
+              <h5 class="mt-0">Création de sites internet</h5>
+              <p class="text-justify">
+                Conception, design, développement et maintenance
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 mb-4">
+          <div class="media my-3">
+            <span
+              ><i class="fa-solid fa-ranking-star" style="color: #ffd43b"></i
+            ></span>
+            <div class="media-body ml-3">
+              <h5 class="mt-0">Référencement naturel (SEO)</h5>
+              <p class="text-justify">
+                Optimisation des contenus pour améliorer le positionnement des
+                sites sur les moteurs de recherche
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 mb-4">
+          <div class="media my-3">
+            <span
+              ><i class="fa-solid fa-bullhorn" style="color: #ffd43b"></i
+            ></span>
+            <div class="media-body ml-3">
+              <h5 class="mt-0">Marketing digital</h5>
+              <p class="text-justify">
+                Campagnes publicitaires sur les réseaux sociaux, e-mailing, etc.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 mb-4">
+          <div class="media my-3">
+            <span
+              ><i class="fa-solid fa-user-group" style="color: #ffd43b"></i
+            ></span>
+            <div class="media-body ml-3">
+              <h5 class="mt-0">Gestion des réseaux sociaux</h5>
+              <p class="text-justify">
+                Création et animation des comptes sur les principales
+                plateformes sociales
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 mb-4">
+          <div class="media my-3">
+            <span
+              ><i class="fa-solid fa-handshake-angle" style="color: #ffd43b"></i
+            ></span>
+            <div class="media-body ml-3">
+              <h5 class="mt-0">Stratégie digitale orientée marketing</h5>
+              <p class="text-justify">
+                Conseil et accompagnement pour définir la meilleure stratégie
+                numérique pour l’entreprise
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 mb-4">
+          <div class="media my-3">
+            <span
+              ><i class="fa-regular fa-file-lines" style="color: #ffd43b"></i
+            ></span>
+            <div class="media-body ml-3">
+              <h5 class="mt-0">Analyse et rapports</h5>
+              <p class="text-justify">
+                Création de rapports pour évaluer l'efficacité des stratégies
+                mises en œuvre et identifier les opportunités d'amélioration.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- ***************Avis**************-->
+    <div class="container-fluid" id="avis">
+      <div class="row">
+        <!-- Colonne de gauche avec l'image d'arrière-plan -->
+        <div class="col-12 col-md-6 fonddroitavis"></div>
+        <!-- Colonne de droite avec le texte et la citation -->
+        <div
+          class="col-12 col-md-6 avisClient text-center d-flex flex-column justify-content-center"
+        >
+          <i
+            class="fas fa-quote-right"
+            style="color: #ffd43b; font-size: 2rem"
+          ></i>
+          <h5 class="my-4">Léo DUPOND - Responsable IT- Leroy Perlin</h5>
+          <p>
+            "Travailler avec StratFly a été une révélation pour notre entreprise. Dès notre première rencontre, il était évident que leur équipe possède une profonde compréhension des défis technologiques auxquels les entreprises modernes sont confrontées. Leur approche méthodique pour cerner nos besoins spécifiques a abouti à des solutions sur mesure qui ont transformé notre présence en ligne et optimisé nos opérations internes.
+
+            L'expertise de StratFly en conception web, couplée à leur compétence en optimisation pour les moteurs de recherche, a permis de propulser notre site web au premier plan dans notre secteur. De plus, leur stratégie de marketing digital a significativement augmenté notre engagement client, ce qui a directement influencé notre croissance des ventes et notre visibilité sur le marché.
+            
+            Leur engagement ne se limite pas à la livraison de projets de haute qualité ; ils assurent également un suivi continu, proposant des ajustements et des mises à jour en fonction de l'évolution du marché et de nos besoins. Cette proactivité assure que nous restons à la pointe de la technologie et maintenons un avantage compétitif.
+            
+            Je recommande StratFly sans réserve pour toute entreprise qui cherche à améliorer sa stratégie digitale. Leur professionnalisme, leur créativité et leur dévouement envers leurs clients sont, en effet, exceptionnels. Ils ne se contentent pas de répondre aux attentes ; ils les surpassent à chaque occasion."
+          </p>
+          <i
+          class="fas fa-quote-right"
+          style="color: #ffd43b; font-size: 2rem"
+        ></i>
+        <h5 class="my-4">Marie BLANCHERE - Responsable Technique - Ftac</h5>
+        <p>
+          "Collaborer avec StratFly a été une expérience transformatrice pour notre entreprise. Dès le début, l'équipe de StratFly a su écouter nos besoins spécifiques en matière de technologie et de présence en ligne. Leur approche personnalisée nous a permis de redéfinir notre stratégie digitale et d'optimiser notre infrastructure web de manière significative.          L'expertise technique de StratFly, combinée à leur compréhension profonde des tendances du marché digital, a été cruciale dans le déploiement de solutions innovantes qui ont non seulement augmenté notre efficacité opérationnelle, mais ont également amélioré notre visibilité auprès de notre clientèle cible.
+          Leur soutien constant et leur réactivité face aux défis techniques sont particulièrement impressionnants. Cela nous a rassurés de savoir que nous pouvions compter sur un partenaire fiable et compétent pour toute question technique ou mise à jour nécessaire.
+          Recommander StratFly serait un euphémisme. Ils ne sont pas simplement un prestataire de services; ils sont un partenaire stratégique qui contribue activement à notre succès continu."
+        </p>
+        </div>
+      </div>
+    </div>
+    <!-- ***************Formulaire**************-->
+    <div class="container-fluid" id="contact">
+      <div
+        class="row justify-content-center align-items-center"
+        style="min-height: 100vh"
+      >
+        <div class="col-md-8">
+          <div class="formcontact">
+            <form
+              action="mailto:keturroyal@gmail.com"
+              method="post"
+              enctype="text/plain"
+            >
+              <div class="form-group">
+                <label for="emailId">Email</label>
+                <input
+                  type="email"
+                  class="form-control"
+                  id="emailId"
+                  name="email"
+                  placeholder="Saisissez votre email ici"
+                  autocomplete="email"
+                />
+                <small id="emailHelp" class="form-text text-muted"
+                  >Nous ne partagerons jamais votre e-mail avec quelqu'un
+                  d'autre.</small
+                >
+              </div>
+              <div class="form-group">
+                <label for="sujetId">Sujet</label>
+                <input
+                  type="text"
+                  class="form-control"
+                  id="sujetId"
+                  name="sujet"
+                  placeholder="Saisissez l'objet du mail ici"
+                  autocomplete="off"
+                />
+              </div>
+              <div class="form-group">
+                <label for="messageId">Message</label>
+                <textarea
+                  class="form-control"
+                  id="messageId"
+                  name="message"
+                  rows="3"
+                  placeholder="Saisissez votre message ici"
+                  autocomplete="off"
+                ></textarea>
+              </div>
+              <button type="submit" class="btn btn-info">Envoyer</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- ***************Footer**************-->
+    <footer>
+      <div class="footer-container">
+        <div class="footer-section">
+          <h3>Adresse</h3>
+          <p>15 rue des marchés<br />Strasbourg, France</p>
+        </div>
+        <div class="footer-section">
+          <h3>Heures d'Ouverture</h3>
+          <p>Lundi - Vendredi: 9h - 18h<br />Samedi: 10h - 17h</p>
+        </div>
+        <div class="footer-section">
+          <h3>À propos de StratFly</h3>
+          <p>
+            Créée en 2015 à Strasbourg, StratFly s'est rapidement imposée comme
+            un acteur clé dans le domaine du web. Notre mission est de propulser
+            les ambitions digitales de nos clients à travers des solutions
+            personnalisées en création de sites, SEO et marketing digital.
+          </p>
+        </div>
+        <div class="footer-section social-icons">
+          <a href="http://www.facebook.com" target="_blank"
+            ><i class="fab fa-facebook"></i
+          ></a>
+          <a href="http://www.youtube.com" target="_blank"
+            ><i class="fab fa-youtube"></i
+          ></a>
+          <a href="http://www.twitter.com" target="_blank"
+            ><i class="fab fa-twitter"></i
+          ></a>
+        </div>
+      </div>
+    </footer>
+    <!-- ***************JS**************-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script>
+      $(function () {
+        $('nav a[href^="#"]').click(function () {
+          var the_id = $(this).attr("href");
+          if ($(the_id).length > 0) {
+            // Vérifie si l'élément existe
+            $("html, body").animate(
+              {
+                scrollTop: $(the_id).offset().top + $("nav").height(),
+              },
+              "slow"
+            );
+          }
+          return false;
+        });
+      });
+    </script>
+  </body>
+</html>
