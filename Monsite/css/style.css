@@ -1,5 +1,6 @@
 .navbar-brand img {
   max-height: 40px;
+  margin-left: 5px;
 }
 
 header .row {
@@ -87,8 +88,6 @@ header .slogan {
   color: #888;
   justify-content: auto;
 }
-
-
 
 #contact {
   background-image: url("../img/contact.jpg");
